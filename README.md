@@ -22,5 +22,16 @@ All yard sales found on [yardsalesearch.com](https://www.yardsalesearch.com/)
 ### NodeJS Backend
 
 - [ ] write yard sale fetcher script
+    - [ ] grab yard sales around a certain zip and return them as html for the email
+- [ ] write express backend for the react front-end
+    - [ ] route to MongoDB
+- [ ] write mailer script
+    - [ ] fetch email address and zip code from DB
+    - [ ] write personalized email for each zip code
+    - [ ] send personalized email to each person in zip code
 
 ### React Frontend
+
+- [ ] create functional framework for the website
+- [ ] connect sign up to the DB
+- [ ] make the website look nice and mobile-friendly
