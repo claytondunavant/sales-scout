@@ -7,12 +7,22 @@ const app = express();
 
 // routes
 
-app.get('/api/sales-scout/:id', (request, response) => {
+app.get('/api/sales-scout/id/:id', (request, response) => {
     const id = request.params.id;
-        
-    response.send( sales_scout.getSalesByZip(id));
     
+    sales_scout.getSaleByID(id).then( yardSale => {
+        response.send(yardSale)
+    });
 })
+
+app.get('/api/sales-scout/zip/:zip', (request, response) => {
+    const zip = request.params.zip;
+    
+    sales_scout.getSalesByZip(zip).then( yardSales => {
+        response.send(yardSales)
+    });
+})
+
 
 // server listen
 const PORT = 3001
