@@ -1,0 +1,17 @@
+html body {
+  background-color: dodgerblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn {
+  margin: 20px;
+}
+
+.content {
+  margin-top: 20vh;
+  height: 35vh;
+  background-color: seashell;
+}
