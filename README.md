@@ -34,7 +34,8 @@ All yard sales found on [yardsalesearch.com](https://www.yardsalesearch.com/)
 
 ### React Frontend
 
-- [ ] create functional framework for the website
-    - [X] create rough skeleton of website with React Router
+- [X] create functional framework for the website
 - [ ] connect sign up to the DB
 - [ ] make the website look nice and mobile-friendly
+- [ ] little fixes
+    - [ ] make the signup only allow email and zip
