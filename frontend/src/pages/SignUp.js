@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button, Form }  from "react-bootstrap";
+import { NavLink } from 'react-router-dom';
 
 class SignUp extends Component {
     render() {
@@ -19,7 +20,9 @@ class SignUp extends Component {
                     </Form.Group>
 
                     <div className="text-center">
-                        <Button variant="primary">Submit</Button>
+                        <NavLink to="/thank-you">
+                            <Button variant="primary">Submit</Button>
+                        </NavLink>
                     </div>
                 </Form>
 

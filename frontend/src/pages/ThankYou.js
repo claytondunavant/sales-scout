@@ -6,10 +6,10 @@ class About extends Component {
     render() {
         return (
             <div>
-                <h1>About</h1>
+                <h1>Thank You!</h1>
             
-                <p> Find local yard sales near you every weekend! </p>
-
+                <p> Thank you for signing up! </p>
+            
                 <div className="text-center">
                     <NavLink to="/">
                         <Button variant="primary">Return Home</Button>

@@ -10,8 +10,12 @@ h1 {
   margin: 20px;
 }
 
-.content {
+.contentBox {
   margin-top: 20vh;
   height: 35vh;
   background-color: seashell;
+}
+
+.content {
+  padding: 30px;
 }
