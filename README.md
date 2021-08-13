@@ -1,10 +1,11 @@
 # sales-scout
 
-Find local yard sales near you every weekend!
+Discover local yard sales near you every weekend!
 
 Sales Scout is a free and open-source web service that emails users yard sales nearby them every friday afternoon.
 To sign up, all you have to do is go to the website and provide your email and zip code.
 Yard Sales, Garage sales, and Estate sales around you direct to your inbox every friday. 
+No account required!
 No fees.
 No marketing.
 Just yard sales.
@@ -21,8 +22,9 @@ All yard sales found on [yardsalesearch.com](https://www.yardsalesearch.com/)
 
 ### NodeJS Backend
 
-- [ ] write yard sale fetcher script
-    - [ ] grab yard sales around a certain zip and return them as html for the email
+- [X] write yard sale fetcher script
+    - [X] grab yard sales around a certain zip and return them as html for the email
+    - [X] REST API compliant
 - [ ] write express backend for the react front-end
     - [ ] route to MongoDB
 - [ ] write mailer script
@@ -33,5 +35,6 @@ All yard sales found on [yardsalesearch.com](https://www.yardsalesearch.com/)
 ### React Frontend
 
 - [ ] create functional framework for the website
+    - [X] create rough skeleton of website with React Router
 - [ ] connect sign up to the DB
 - [ ] make the website look nice and mobile-friendly
