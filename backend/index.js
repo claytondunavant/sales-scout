@@ -1,17 +1,29 @@
 // modules
 const express = require('express');
+const cors = require('cors');
 const sales_scout = require('./sales-scout');
 
 //express setup
 const app = express();
+
+//middleware
 app.use(express.json())
+app.use(cors())
+
 
 // routes
 
-app.post('/api/emails', (request, response) => {
-    const email = request.body;
-    console.log(email)
-    response.json(email)
+//add emails ans zip to database
+app.post('/api/users', (request, response) => {
+    const body = request.body;
+    
+    if (!body.email || !body.zip) {
+        return response.status(400).json({
+            error: 'content missing'
+        })
+    }
+
+    response.json(body)
 })
 
 app.get('/api/sales-scout/id/:id', (request, response) => {
@@ -19,6 +31,8 @@ app.get('/api/sales-scout/id/:id', (request, response) => {
     
     sales_scout.getSaleByID(id).then( yardSale => {
         response.send(yardSale)
+    }).catch( yardSale => {
+        response.status(404).end()
     });
 })
 

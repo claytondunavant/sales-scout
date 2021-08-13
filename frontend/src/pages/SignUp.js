@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Button, Form }  from "react-bootstrap";
 import { NavLink } from 'react-router-dom';
+import usersService from '../services/users'
 
 class SignUp extends Component {
     
@@ -10,7 +11,16 @@ class SignUp extends Component {
     };
     
     onSubmit = () => {
-        console.log(this.state.email, this.state.zip);
+        const newUser = {
+            email: this.state.email,
+            zip: this.state.zip,
+        } 
+
+        usersService
+            .createNewUser(newUser)
+            .then( response => {
+                console.log('response', response);
+            })
     }
     
     onEmailChange = e => {

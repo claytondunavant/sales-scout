@@ -37,6 +37,7 @@ All yard sales found on [yardsalesearch.com](https://www.yardsalesearch.com/)
 
 - [X] create functional framework for the website
 - [ ] connect sign up to the DB
+    - [X] connect sign up to express backend
 - [ ] make the website look nice and mobile-friendly
 - [ ] little fixes
     - [ ] make the signup only allow email and zip
