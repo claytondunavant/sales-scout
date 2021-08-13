@@ -27,6 +27,7 @@ All yard sales found on [yardsalesearch.com](https://www.yardsalesearch.com/)
     - [X] REST API compliant
 - [ ] write express backend for the react front-end
     - [ ] route to MongoDB
+    - [ ] add request processing to make sure data is all good
 - [ ] write mailer script
     - [ ] fetch email address and zip code from DB
     - [ ] write personalized email for each zip code

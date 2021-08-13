@@ -4,8 +4,15 @@ const sales_scout = require('./sales-scout');
 
 //express setup
 const app = express();
+app.use(express.json())
 
 // routes
+
+app.post('/api/emails', (request, response) => {
+    const email = request.body;
+    console.log(email)
+    response.json(email)
+})
 
 app.get('/api/sales-scout/id/:id', (request, response) => {
     const id = request.params.id;
