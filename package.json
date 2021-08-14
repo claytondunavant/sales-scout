@@ -177,7 +177,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:ui",
+    "build:ui": "cd backend && rm -rf build && cd ../frontend && npm install && npm run build --prod && cp -r build ../backend && cd..",
+    "start": "cd backend && npm install && npm start"
   },
   "repository": {
     "type": "git",

@@ -9,6 +9,7 @@ const app = express();
 //middleware
 app.use(express.json())
 app.use(cors())
+app.use(express.static('build'))
 
 
 // routes
@@ -46,7 +47,7 @@ app.get('/api/sales-scout/zip/:zip', (request, response) => {
 
 
 // server listen
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
     console.log(`Server running on ${PORT}`)
 })

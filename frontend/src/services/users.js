@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 //base url
-const baseURL = 'http://localhost:3001/api/users'
+const baseURL = '/api/users'
 
 //add user to database
 const createNewUser = newUser => {
