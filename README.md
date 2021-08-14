@@ -63,6 +63,8 @@ $ npm start
 - [ ] little fixes
     - [ ] make the signup only allow email and zip
 
+## References
+
 ### Helpful Resources in Developing This Project
 
 [Full Stack Open 2021](https://fullstackopen.com/en/)
