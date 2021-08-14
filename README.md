@@ -18,6 +18,27 @@ I created this service because I found it very helpful, and I hope you find it h
 
 All yard sales found on [yardsalesearch.com](https://www.yardsalesearch.com/)
 
+## Installation
+
+Clone the Repository.
+
+```
+$ git clone https://github.com/claytondunavant/sales-scout
+```
+
+Build the frontend.
+
+```
+$ cd sales-scout
+$ npm run build
+```
+
+Start the app.
+
+```
+$ npm start
+```
+
 ## TODO
 
 ### NodeJS Backend
@@ -41,3 +62,9 @@ All yard sales found on [yardsalesearch.com](https://www.yardsalesearch.com/)
 - [ ] make the website look nice and mobile-friendly
 - [ ] little fixes
     - [ ] make the signup only allow email and zip
+
+### Helpful Resources in Developing This Project
+
+[Full Stack Open 2021](https://fullstackopen.com/en/)
+
+[Creating a Single-Page App in React using React Router by Kirupa](https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.html)
