@@ -47,7 +47,7 @@ $ npm start
     - [X] grab yard sales around a certain zip and return them as html for the email
     - [X] REST API compliant
 - [ ] write express backend for the react front-end
-    - [ ] route to MongoDB
+    - [X] route to MongoDB
     - [ ] add request processing to make sure data is all good
 - [ ] write mailer script
     - [ ] fetch email address and zip code from DB
@@ -57,7 +57,7 @@ $ npm start
 ### React Frontend
 
 - [X] create functional framework for the website
-- [ ] connect sign up to the DB
+- [X] connect sign up to the DB
     - [X] connect sign up to express backend
 - [ ] make the website look nice and mobile-friendly
 - [ ] little fixes
