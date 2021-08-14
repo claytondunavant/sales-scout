@@ -1,4 +1,4 @@
-# sales-scout
+# Sales Scout
 
 Discover local yard sales near you every weekend!
 
@@ -65,8 +65,6 @@ $ npm start
 
 ## References
 
-### Helpful Resources in Developing This Project
-
 [Full Stack Open 2021](https://fullstackopen.com/en/)
 
-[Creating a Single-Page App in React using React Router by Kirupa](https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.html)
+[Creating a Single-Page App in React using React Router by Kirupa](https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm)
