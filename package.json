@@ -2,6 +2,9 @@
   "name": "sales-scout",
   "version": "1.0.0",
   "description": "Find local yard sales near you every weekend!",
+  "engines": {
+    "node": "16.x"
+  },
   "main": "index.js",
   "dependencies": {
     "abbrev": "^1.1.1",
